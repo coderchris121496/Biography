@@ -1,0 +1,148 @@
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', 'Helvetica';
+}
+.heading-background{
+    background-image: url(assets/vintage-grunge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    box-sizing: border-box;
+
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    font-size: 1rem;
+    box-sizing: border-box;
+    color: blanchedalmond;
+    background-color: transparent !important;
+    position: fixed
+}
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px 5px;
+   
+}
+.nav-menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu li{
+    margin: 10px 1rem;
+}
+.brand{
+    display: flex;
+    text-align: right;
+    padding: 1.5rem;
+}
+.header-section{
+    display: flex;
+    width: 100%;
+    padding-top: 11rem;
+    padding-bottom: 10rem;
+    box-sizing: border-box;
+    align-content: center;
+    height: 800px;
+    justify-content: center;
+    font-size: 5rem;
+    color: blanchedalmond;
+    font-weight: 700;
+}
+.header-container{
+    display: flex;
+    font-family: 'Recursive', cursive;
+}
+.about-section{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    color: blanchedalmond;
+
+}
+.about-container{
+    border: 2px solid black;
+    width: 80%;
+    margin-top: -25rem;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(225, 225,225, 0.2);
+
+
+}
+.about-heading-container{
+    padding: 1rem;
+
+}
+.about-heading{
+   
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px 20px;
+    
+}
+.about-content-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.about-right{
+    text-align: center;
+    padding: 10px;
+}
+.about-left{
+    text-align: center;
+    padding: 10px;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.btn button{
+    padding: 1rem 3rem;
+    border-radius: 7px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.team-container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.creative-heading{
+    font-size: 1.5rem;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.creative-content{
+    text-align: center;
+    padding: 10px;
+  
+}
+.our-team-heading{
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     text-align: center;
+     letter-spacing: 1px;
+}
+.our-team-content{
+    text-align: center;
+    padding: 10px;
+}
